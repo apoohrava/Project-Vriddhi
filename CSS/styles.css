@@ -1,0 +1,160 @@
+/************** CLASS SELECTOR ***********/
+
+
+
+.learn-more-home {
+    position: absolute;
+    top: 30rem;
+    width: 100%;
+    text-align: center;
+}
+
+.logo-top {
+    position: absolute;
+    width: 136px;
+    height: 126px;
+    left: 50px;
+    top: 46px;
+}
+
+
+
+.nav-item {
+    font-family: Manjari;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: right;
+    display: inline;
+    padding: 10%;
+    white-space: nowrap;
+
+}
+
+.navbar-nav {
+    margin-right: 20%;
+}
+
+.navbar-custom {
+    background-color: #EFE112;
+}
+
+.navlink {
+    display: inline;
+    color: #000000;
+    padding: 10%;
+}
+
+.project {
+    position: absolute;
+    top: 18rem;
+    left: 33%;
+
+}
+
+.small-about {
+    position: absolute;
+    left: 59%;
+    top: 40%;
+}
+
+.text-black-centre {
+    position: absolute;
+    top: 50%;
+    left: 42%;
+
+    font-family: Belleza;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 7vw;
+    text-align: center;
+
+    color: #000000;
+}
+
+.text-black-centre-event {
+    position: absolute;
+    top: 50%;
+    left: 38%;
+
+    font-family: Belleza;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 7vw;
+    text-align: center;
+
+    color: #000000;
+}
+
+
+
+.vriddhi {
+    position: absolute;
+    top: 24rem;
+    left: 40%;
+}
+
+/************** TAG SELECTOR ***********/
+h1 {
+    font-family: Belleza;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 5rem;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+h2 {
+    font-family: Belleza;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+
+    text-align: center;
+    text-decoration-line: underline;
+
+    color: #11675D;
+
+}
+
+h3 {
+    margin-top: 80px;
+    margin-left: 60px;
+}
+
+p {
+    font-family: Manjari;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2vw;
+    text-align: center;
+    line-height: 2vw;
+
+    color: #000000;
+
+}
+
+h4 {
+    font-family: Belleza;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+span{
+
+font-family: Manjari;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 35px;
+text-align: center;
+
+}

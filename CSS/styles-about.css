@@ -1,0 +1,97 @@
+
+a img:last-child {
+    display: none;  
+  }
+  a:hover img:last-child {
+    display: block;  
+  }
+  a:hover img:first-child {
+    display: none;  
+  }
+
+.back-circle {
+    position: absolute;
+    width: 28vw;
+    height: 28vw;
+    -webkit-border-radius: 3vw;
+    -moz-border-radius: 3vw;
+    border-radius: 100vw;
+    left: 60%;
+    top: 25%;
+
+    background: #116466;
+}
+
+.circle {
+    border-radius: 220px;
+    width: 220px;
+    height: 220px;
+    background: #EFE112;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    transition: background-color 2s ease-out 100ms;
+}
+
+.circle-sdg-4 :hover{
+    border-radius: 220px;
+    width: 220px;
+    height: 220px;
+    background: #85CDB5;
+}
+
+.circle-sdg-5 :hover{
+    border-radius: 220px;
+    width: 220px;
+    height: 220px;
+    background: url(about-text-images/sdg5-text.png);
+}
+
+.circle-sdg-8 :hover{
+    border-radius: 220px;
+    width: 220px;
+    height: 220px;
+    background: url(about-text-images/sdg8-text.png);
+}
+
+.circle-sdg-10 :hover{
+    border-radius: 220px;
+    width: 220px;
+    height: 220px;
+    background: url(about-text-images/sdg10-text.png);
+}
+
+.front-circle {
+    position: absolute;
+    width: 28vw;
+    height: 28vw;
+    -webkit-border-radius: 3vw;
+    -moz-border-radius: 3vw;
+    border-radius: 100vw;
+    left: 57%;
+    top: 25%;
+
+    background: #85CDB5;
+}
+
+.menu li {
+    display: inline-flex;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin-left: 8vw;
+
+}
+
+.project-about{
+    position: absolute;
+    top: 18rem;
+    left: 10rem;
+    }
+    
+  .vriddhi-about{
+    position: absolute;
+    top: 23rem;
+    left: 10rem;
+  }  
