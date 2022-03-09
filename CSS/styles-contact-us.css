@@ -128,3 +128,13 @@ a img:last-child {
       width: 100%;
   }
 }  
+
+h5{
+  font-family: Manjari;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 20px;
+text-align: center;
+}
+
