@@ -849,7 +849,7 @@ button:focus {
 
 .serviceBox {
     padding: 35px 20px 25px;
-    border: 1px solid #16567f;
+    border: 1px solid #f2f3f5;
     text-align: center;
     position: relative;
     transition: all 0.3s ease 0s;
@@ -861,7 +861,7 @@ button:focus {
 
 .serviceBox:before {
     content: "";
-    border-top: 20px solid #16567f;
+    border-top: 20px solid #f2f3f5;
     border-left: 20px solid transparent;
     border-bottom: 20px solid transparent;
     position: absolute;
@@ -880,7 +880,7 @@ button:focus {
     height: 80px;
     line-height: 80px;
     font-size: 30px;
-    color: #064774;
+    color: #f2f3f5;
     margin-bottom: 35px;
     z-index: 1;
     position: relative;
@@ -896,7 +896,7 @@ button:focus {
     width: 100%;
     height: 100%;
     border-radius: 3px;
-    border: 1px solid #16567f;
+    border: 1px solid #f2f3f5;
     position: absolute;
     top: 0;
     left: 0;
@@ -937,18 +937,18 @@ button:focus {
     transition: .2s;
     letter-spacing: 1px;
     padding: 10px 18px;
-    background: #ffffff;
-    color: #12557f;
+    background: #f2f3f5;
+    color: #95D1CC;
     display: inline-block;
     line-height: 12px;
 }
 
 .serviceBox a.new-btn-d.br-2 {
-    border: 2px solid #12557f;
+    border: 2px solid #f2f3f5;
 }
 
 .serviceBox a:hover {
-    color: #ffffff;
+    color: #f2f3f5;
 }
 
 .serviceBox a.new-btn-d::before {
@@ -966,13 +966,13 @@ button:focus {
 }
 
 .services-box .owl-carousel .owl-nav .owl-prev {
-    border: 2px solid #12557f;
+    border: 2px solid #f2f3f5;
     border-radius: 2px;
     transition: .2s;
     letter-spacing: 1px;
     padding: 10px 18px !important;
-    background: #ffffff;
-    color: #12557f;
+    background: #f2f3f5;
+    color: #95D1CC;
     display: inline-block;
     line-height: 12px;
     font-size: 34px;
@@ -985,13 +985,13 @@ button:focus {
 }
 
 .services-box .owl-carousel .owl-nav .owl-next {
-    border: 2px solid #12557f;
+    border: 2px solid #f2f3f5;
     border-radius: 2px;
     transition: .2s;
     letter-spacing: 1px;
     padding: 10px 18px !important;
-    background: #ffffff;
-    color: #12557f;
+    background: #f2f3f5;
+    color: #95D1CC;
     display: inline-block;
     line-height: 12px;
     font-size: 34px;
@@ -1007,64 +1007,6 @@ button:focus {
 /*------------------------------------------------------------------
     Appointment
 -------------------------------------------------------------------*/
-
-.appointment-main {
-    padding: 70px 0px;
-    position: relative;
-}
-
-.well-block {}
-
-.well-block .well-title h2 {
-    font-size: 32px;
-    font-weight: 600;
-    padding-bottom: 20px;
-}
-
-.well-block form .form-group .control-label {
-    font-size: 16px;
-}
-
-.well-block form .form-group .form-control {
-    min-height: 60px;
-    min-height: 50px;
-    padding: 0px 15px;
-    border-radius: 0;
-    color: #12557f;
-    border: 1px solid #12557f;
-}
-
-.well-block form .form-group .form-control:focus {
-    box-shadow: none;
-}
-
-.well-block form .form-group button {
-    border-radius: 2px;
-    transition: .2s;
-    letter-spacing: 1px;
-    padding: 10px 18px;
-    background: #95D1CC;
-    color: #12557f;
-    display: inline-block;
-    line-height: 24px;
-    cursor: pointer;
-}
-
-.well-block form .form-group button.new-btn-d.br-2 {
-    border: 2px solid #12557f;
-}
-
-.well-block form .form-group button.new-btn-d::before {
-    background: rgba(18, 85, 127, 0.2);
-}
-
-.feature-block .feature-title {
-    font-size: 20px;
-}
-
-.well-block form .form-group button:hover {
-    color: #ffffff;
-}
 
 
 /*------------------------------------------------------------------
@@ -1384,7 +1326,7 @@ button:focus {
     letter-spacing: 1px;
     padding: 10px 18px;
     background: #ffffff;
-    color: #12557f;
+    color: #ffffff;
     font-size: 14px;
     display: inline-block;
     line-height: 24px;
@@ -1403,7 +1345,7 @@ button:focus {
 }
 
 .blog-inner .item-meta {
-    background: #12557f;
+    background: #ffffff;
 }
 
 .blog-inner .item-meta a {
@@ -1444,11 +1386,11 @@ button:focus {
     text-align: center;
 }
 
-.cont-line {
+/* .cont-line {
     overflow: hidden;
     margin-bottom: 30px;
     width: 33.33%;
-    float: left;
+    float: left; 
 }
 
 .icon-bl {
@@ -1459,12 +1401,12 @@ button:focus {
     font-size: 40px;
     border: 2px dotted #12557f;
     margin-right: 10px;
-    margin-left: 30px;
+    margin-left: 100px;
     color: #22577E;
     border-radius: 50%;
-}
+} */
 
-.icon-bc {
+/* .icon-bc {
     width: 80px;
     height: 80px;
     text-align: center;
@@ -1472,10 +1414,10 @@ button:focus {
     font-size: 40px;
     border: 2px dotted #12557f;
     margin-right: 0px;
-    margin-left: 80px;
+    margin-left: 100px;
     color: #22577E;
     border-radius: 50%;
-}
+} */
 
 .icon-br {
     width: 80px;
@@ -1489,7 +1431,32 @@ button:focus {
     border-radius: 50%;
 }
 
-.dit-right h4 {
+
+
+#features{
+    padding:4% 25% 0%;
+    /* background-color: white; */
+    position: relative;
+    z-index: 1;
+  }
+  .feature-box{
+    text-align: center;
+    padding: 5%;
+  }
+
+  .feature-box h3 {
+    color: #00cb86;
+  }
+
+  .fa-envelope {
+
+  }
+
+  .link1 {
+    color: #ffffff;
+  }
+
+/* .dit-right h4 {
     font-size: 18px;
     color: #333333;
     font-weight: 600;
@@ -1513,6 +1480,10 @@ button:focus {
 .dit-right a:hover {
     color: #00cb86;
 }
+
+.centre p {
+    margin-left: 170px;
+} */
 
 .contact-block {}
 
@@ -1669,6 +1640,10 @@ select.form-control:not([size]):not([multiple]) {
 
 .centre {
     margin-left: 10px;
+}
+
+.right-top {
+    margin-left: 36%;
 }
 
 .fa-volume-control-phone {
