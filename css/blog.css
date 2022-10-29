@@ -1,0 +1,69 @@
+h1 {
+    margin-left: 4%;
+    color:antiquewhite
+    
+}
+
+h3 {
+    margin-left: 6%;
+    font-size: 20px;
+    color:antiquewhite
+    
+}
+
+.head {
+    margin-left: 6%;
+    font-size: 23px;
+    color:antiquewhite
+    
+}
+
+
+.lead {
+    color:blanchedalmond
+}
+
+.blog-post-meta{
+    margin-left: 6%;
+    font-size: 23px;
+    margin-right: 4%;
+}
+
+.bullet {
+    margin-left: 6%;
+    color: aliceblue;
+}
+
+.numb {
+    margin-left: 6%;
+    color: aliceblue;
+}
+
+.para1 {
+    margin-left: 6%;
+    margin-right: 4%;
+    margin-bottom: 4%;
+    font-size: 16px;
+}
+
+.para2 {
+    margin-top: 10px;
+    margin-left: 6%;
+    margin-right: 4%;
+    margin-bottom: 4%;
+    font-size: 17px;
+}
+
+.mb-0{ 
+    color: black;
+}
+
+.p-3 {
+color: aliceblue;
+}
+
+.video1 {
+    margin-bottom: 65px;
+    margin-left: 15%
+
+}
