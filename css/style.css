@@ -746,7 +746,7 @@ button:focus {
 
 .about-m ul li a {
     background: #528780F;
-    color: #ffffff;
+    color: #ffff;
     width: 38px;
     height: 38px;
     text-align: center;
@@ -1021,6 +1021,7 @@ button:focus {
     text-align: center;
     box-shadow: 0 0 5px #7e7d7d;
     position: relative;
+    margin-top: 20px;
     margin-bottom: 30px;
 }
 
@@ -1038,7 +1039,7 @@ button:focus {
     transition: all 0.5s ease 0s;
 }
 
-.box-gallery:hover .box-content {
+/* .box-gallery:hover .box-content {
     background-color: rgba(255, 242, 242, 0.8);
 }
 
@@ -1051,9 +1052,9 @@ button:focus {
     opacity: 0;
     transform: scale(1.5);
     transition: all 0.6s ease 0.3s;
-}
+} */
 
-.box-gallery .box-content:before {
+/* .box-gallery .box-content:before {
     border-left: 2px solid #00cb86;
     border-top: 2px solid #00cb86;
     top: 19px;
@@ -1071,7 +1072,7 @@ button:focus {
 .box-gallery:hover .box-content:after {
     opacity: 1;
     transform: scale(1);
-}
+} */
 
 .box-gallery .title {
     font-size: 22px;
@@ -1648,4 +1649,11 @@ select.form-control:not([size]):not([multiple]) {
 
 .fa-volume-control-phone {
     margin-left: 10px;
+}
+
+.blogtitle {
+    color: white;
+    font-size: 23px;
+    margin-left: 12%;
+    margin-top: 15px;
 }
